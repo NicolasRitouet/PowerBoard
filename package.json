@@ -1,0 +1,23 @@
+{
+  "name": "Powerboard",
+  "version": "0.0.1",
+  "author": "Nicolas Ritouet <nicolas@ritouet.com>",
+  "description": "Get event from DB and display in a chart.",
+  "dependencies": {
+    "mongoose": "3.0.2",
+    "socket.io": "0.9.10",
+    "logly": "1.2.0",
+    "string": "0.2.1-2",
+    "node-static": "0.6.0"
+  },
+  "engine": {
+    "node": ">=0.8"
+  },
+  "subdomain": "testPB",
+  "scripts": {
+    "start": "app.js"
+  },
+  "engines": {
+    "node": "0.6.x"
+  }
+}
